@@ -1,0 +1,22 @@
+curl 'https://api.interpreter.caiyunai.com/v1/dict' \
+  -H 'authority: api.interpreter.caiyunai.com' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: zh-CN,zh;q=0.9,en;q=0.8' \
+  -H 'app-name: xy' \
+  -H 'content-type: application/json;charset=UTF-8' \
+  -H 'device-id;' \
+  -H 'dnt: 1' \
+  -H 'origin: https://fanyi.caiyunapp.com' \
+  -H 'os-type: web' \
+  -H 'os-version;' \
+  -H 'referer: https://fanyi.caiyunapp.com/' \
+  -H 'sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36' \
+  -H 'x-authorization: token:qgemv4jr1y38jyq6vhvi' \
+  --data-raw '{"trans_type":"en2zh","source":"good"}' \
+  --compressed
